@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  background-image: url("ServerRoom.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+li,
+a,
+button {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: ;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: "Inconsolata", sans-serif;
+  overflow: hidden;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.Nav_links {
+  list-style: none;
+}
+
+.Nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.Nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.Nav_links li a:hover {
+  color: blue;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: inherit;
+}
+
+button:hover {
+  color: blue;
+}
+
+#Nav_bar {
+  position: absolute;
+}
+
+/* Nav_bar End */
+
+h1 {
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+  padding-top: 9%;
+  color: white;
+  white-space: nowrap;
+}
+
+h2 {
+  padding: 0.5% 0%;
+  font-family: "Inconsolata", sans-serif;
+  color: white;
+  text-align: center;
+  color: white;
+}
+
+/* Nav_bar START*/
+li,
+a,
+button {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.Nav_links {
+  list-style: none;
+}
+
+.Nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.Nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.Nav_links li a:hover {
+  color: blue;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: inherit;
+}
+
+button:hover {
+  color: blue;
+}
+
+#Nav_bar {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+/* Nav_bar End */

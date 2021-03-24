@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  overflow: hidden;
+}
+li,
+a,
+button {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.Nav_links {
+  list-style: none;
+}
+
+.Nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.Nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.Nav_links li a:hover {
+  color: blue;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: inherit;
+}
+
+button:hover {
+  color: blue;
+}
+
+#Nav_bar {
+  position: absolute;
+}
+
+/* Nav_bar End */
+
+h1 {
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+  padding: 10% 0;
+  color: black;
+  white-space: nowrap;
+}
+
+h2 {
+  padding: 0.5% 0%;
+  font-family: "Inconsolata", sans-serif;
+  color: white;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  border-right: solid 3px rgba(0, 255, 0, 0.75);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  color: #595757;
+  width: 24em;
+  margin: 0 auto;
+  margin-top: -9%;
+}
+
+/* Nav_bar START*/
+li,
+a,
+button {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.Nav_links {
+  list-style: none;
+}
+
+.Nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.Nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.Nav_links li a:hover {
+  color: blue;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: inherit;
+}
+
+button:hover {
+  color: blue;
+}
+
+#Nav_bar {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+/* Nav_bar End */
+/* typewriter Animation */
+h3 {
+  animation: animated-text 5s steps(37, end) 1s 1 normal both,
+    animated-cursor 650ms steps(37, end) infinite;
+}
+
+/* text animation */
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 540px;
+  }
+}
+
+/* cursor animations */
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(0, 255, 0, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* typewriter Animation End*/
