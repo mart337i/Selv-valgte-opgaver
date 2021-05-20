@@ -1,0 +1,3 @@
+C:\Users\Egeskov\source\repos\RunescapeBot\RunescapeBot\obj\Debug\RunescapeBot.njsprojAssemblyReference.cache
+C:\Users\Egeskov\source\repos\RunescapeBot\RunescapeBot\obj\Debug\RunescapeBot.njsproj.CoreCompileInputs.cache
+C:\Users\Egeskov\source\repos\RunescapeBot\RunescapeBot\bin\Microsoft.NodejsTools.WebRole.dll
